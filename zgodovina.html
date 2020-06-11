@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+<title>Antivirusni programi</title>
+</head>
+<body>
+  <!-- širina strani -->
+<div class="vsebina">
+  <!-- Glava -->
+<div class="header">
+<img src="slike/logo.svg" alt="logo" width="400" height="500" >
+  <h1>Zgodovina virusov</h1>
+</div>
+<div class="navbar">
+  <a href="index.html">Domov</a>
+  <a href="Ustvarjalci-virusov.html">Ustvarjalci virusov</a>
+  <div class="dropdown">
+    <button class="dropbtn">Virusi
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="zgodovina.html" class="active">Zgodovina</a>
+      <a href="crvi.html">Računalniški črv</a>
+      <a href="trojanski.html">Trojanski konj</a>
+      <a href="spyware.html">Spyware</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Antivirusni programi
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="delovanje.html">Delovanje</a>
+      <a href="avast.html">Avast</a>
+      <a href="norton.html">Norton</a>
+      <a href="avg.html">AVG</a>
+      <a href="mcafee.html">McAfee</a>
+    </div>
+  </div>
+  <a href="hekerstvo.html">Hekerstvo</a>
+</div>
+<h2><center> Zgodovina virusov </center></h2>
+<p> Leta 1984 je bila prvič omenjena možnost pojava računalniških virusov. Takrat jih ni nihče jemal resno. Ko pa se je leta 1986 pojavil prvi virus imenovan <b>brain</b>, je bila to prava senzacija. To bi lahko imenovali kar genialnost, če se sklicujemo na besede znanega ameriškega ekonomista <b>Galbraitha</b>, ki je nekoč dejal, da ni genialnost izdelati nov izdelek, ki ga trg potrebuje, ampak ustvariti potrebo po izdelku, ki ga ljudje sploh ne potrebujejo. In računalniških virusov zagotovo nihče ne potrebuje.</p>
+<p>Prvi virus "brain" je svoje širjenje začel po ZDA in je bil brez škodljivih efektov. Le redti so takrat bili mnenja, da so virusi velik trn v peti za računalniške sisteme. Prvi virusi so bili povečini neškodljivi (izpisovali so le kakšno sporočilo na zaslonu), pozneje pa se je začelo pojavljati vse več "škodljivih" virusov, ki uničijo ali spremenijo podatke.</p>
+<p>Oktobra 1993 je bilo tako znanih že več kot 3000 različnih virusov. Sedaj se število virusov več ne povečuje tako hitro, kot se je še do leta 1992. Vodilni protivirusni centri v svetu zdaj dobijo v analizo okoli 100 novih virusov na mesec. Poleg samega števila se spreminjajo in stalno izboljšujejo tudi tehnike skrivanja in načini razmnoževanja virusov. </p>
+<div class="footer"> 
+  <p> COPYRIGHT &copy;2020 Klemen Budna </p>
+</div>
+</body>
+</html>
+
+<!-- CSS -->  
+<style> 
+body {
+  background-color: #e7e7e7;
+  background-image: url('slike/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+    h2  {
+        font-family: 'Alegreya Sans SC', serif;
+        color: #2C8DEA;
+        font-size: 48px;
+        }
+      p {
+        font-family: 'Alegreya Sans', serif;
+        color:#000000;
+        font-size: 22px;
+        padding: 20px;
+      }
+      li {
+        font-family: 'Alegreya Sans', serif;
+        color:#000000;
+        font-size: 22px;
+        padding: 15px;
+        position: relative;
+        left: 30px;
+        }
+      p.a { 
+        font-family: 'Alegreya Sans', serif;
+        color:#000000;
+        font-size: 18px;
+        }
+     img.a {
+        border-radius: 50%;
+        }
+/* vsebina */
+.vsebina {  
+    max-width: 1200px;
+    margin: auto;
+    background: #e7e7e7;
+    }
+/* Header z naslovom */
+.header {
+  padding: 0px;
+  text-align: center;
+  background: #e7e7e7;
+  color: #008CBA;
+  font-size: 50px;
+  font-family: 'Alegreya Sans SC', serif;
+}
+/* Meni */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Alegreya Sans SC';
+}
+
+/* Linki v meniju*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Dropdown */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown gumb */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+/* Barva hoverja */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #008CBA;
+}
+
+/* Dropdown vsebina */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Linki v dropdownu */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+ /* Barva dropdown hoverja*/
+.dropdown-content a:hover {
+  background-color: #008CBA;
+}
+
+/* Dropdown ob preletu */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2C8DEA;
+  color: white;
+  text-align: center;
+}
+</style>

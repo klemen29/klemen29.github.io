@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+<title>Antivirusni programi</title>
+</head>
+<body>
+<div>
+  <!-- širina strani -->
+<div class="vsebina">
+  <!-- Glava -->
+<div class="header">
+<img src="slike/logo.svg" alt="logo" width="400" height="500" >
+  <h1>Ustvarjalci virusov</h1>
+</div>
+<div class="navbar">
+  <a href="index.html" >Domov</a>
+  <a href="Ustvarjalci-virusov.html" class="active">Ustvarjalci virusov</a>
+  <div class="dropdown">
+    <button class="dropbtn">Virusi
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="zgodovina.html">Zgodovina</a>
+      <a href="crvi.html">Računalniški črv</a>
+      <a href="trojanski.html">Trojanski konj</a>
+      <a href="spyware.html">Spyware</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Antivirusni programi
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="delovanje.html">Delovanje</a>
+      <a href="avast.html">Avast</a>
+      <a href="norton.html">Norton</a>
+      <a href="avg.html">AVG</a>
+      <a href="mcafee.html">McAfee</a>
+    </div>
+  </div>
+  <a href="hekerstvo.html">Hekerstvo</a>
+</div>
+<h2><center> Kdo so ustvarjalci virusov? </center></h2>
+<p> Računalniške viruse lahko pišejo le programerji z dobrim znanjem računalniškega programiranja. Najpogosteje pripadajo eni od naslednjih skupin: </p>
+<li> <b>PROGRAMERSKI EKSPERIMENTATORJI:</b> to so programerji na fakultetah ali v laboratorijih, v katerih preučujejo računalniške viruse, lahko so tudi hekerji, ki jim je programiranje v užitek, in drugi. Če virusi teh izvorov zaidejo v javnost, se to zgodi le pomotoma. </li>
+<li> <b>"ŠALJIVCI":</b> to so osebe, ki se z pisanjem predvsem zabavajo. Ti virusi so navadno hudomušni in neškodljivi, čeprav jih ob odkritju kake nove tehnike škodoželjni programerji hitro prikrojijo v zelo nevarne viruse. </li>
+<li> <b>ŠKODOŽELJNI PROGRAMERJI:</b> njihov cilj je popolno uničevanje podatkov iz različnih vzrokov. Med njimi so najpogosteje odpuščeni programerji, programerji iz vzhodnih držav (predvsem Bolgari in Rusi), ki so pogosto izredno dobro "oboroženi" z znanjem programiranja. Mnogokrat pišejo takšne viruse tudi pripadniki raznih organizacij (npr. virusi Marihuana, Machosoft, Ho Shi Minh itd.).</li>
+<li> <b>MLADI PROGRAMERJI:</b> ti želijo odkriti tehnologijo in delovanje virusov,a ponavadi niti ne vedo, v kaj se spuščajo. Mnogi med njimi bi se radi s svojim programerskim znanjem pokazali pred drugimi.</li>
+<p> Število virusov raste iz dneva v dan. Trenutno jih obstaja preko milijon.</p>
+<div class="footer">
+  <p> COPYRIGHT &copy;2020 Klemen Budna </p> 
+</div>       
+</div>
+</body>
+</html>
+
+<!-- CSS -->  
+<style> 
+body {
+  background-color: #e7e7e7;
+  background-image: url('slike/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+    h2  {
+        font-family: 'Alegreya Sans SC', serif;
+        color: #2C8DEA;
+        font-size: 48px;
+        }
+      p {
+        font-family: 'Alegreya Sans', serif;
+        color:#000000;
+        font-size: 22px;
+        padding: 20px;
+      }
+      li {
+        font-family: 'Alegreya Sans', serif;
+        color:#000000;
+        font-size: 22px;
+        padding: 15px;
+        position: relative;
+        left: 30px;
+        }
+      p.a { 
+        font-family: 'Alegreya Sans', serif;
+        color:#000000;
+        font-size: 18px;
+        }
+      img.a {
+        border-radius: 50%;
+        }
+/* vsebina */
+.vsebina {  
+    max-width: 1200px;
+    margin: auto;
+    background: #e7e7e7;
+    }
+/* Header z naslovom */
+.header {
+  padding: 0px;
+  text-align: center;
+  background: #e7e7e7;
+  color: #008CBA;
+  font-size: 50px;
+  font-family: 'Alegreya Sans SC', serif;
+}
+/* Meni */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: 'Alegreya Sans SC';
+}
+
+/* Linki v meniju*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Dropdown */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown gumb */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0; 
+}
+
+/* Barva hoverja */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #008CBA;
+}
+
+/* Dropdown vsebina */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Linki v dropdownu */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+ /* Barva dropdown hoverja*/
+.dropdown-content a:hover {
+  background-color: #008CBA;
+}
+
+/* Dropdown ob preletu */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2C8DEA;
+  color: white;
+  text-align: center;
+}
+</style>
